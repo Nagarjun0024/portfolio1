@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="basestyle.css">
+    <link rel="JavaScript" href="base.js" type="text/javascript">
+    <script src="https://kit.fontawesome.com/b2c7cb0d79.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6ee832cf68.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo img.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-caret-down" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer</p>
+                <h1>NAGARJUN </h1>
+                <h2> BCA</h2>
+                <p class="p1"> I am a <span>web developer</span> with a passion for creating dynamic and responsive websites. I have experience in <span> HTML, CSS, JavaScript </span>, and various web development <span>frameworks</span>. My goal is to build user-friendly and visually appealing web applications that provide an excellent user experience.</p>
+            </div>
+        </div>
+    </div>
+
+
+   <!---------------about section---------------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Profileanime.png" alt="Profilephoto">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="aboutheading">About Me</h1>
+                        <p class="aboutpara">
+                                    As an organized and passionate entry-level web developer, I possess a strong technical foundation and excellent communication skills.<br>
+                                    Driven by curiosity and a deep enthusiasm for technology, I am eager to grow, refine my expertise, and contribute meaningfully to the industry.<br>
+                                    I am committed to continuously enhancing my skills to develop dynamic, visually compelling, and efficient web applications.<br> 
+                                    A quick learner and highly adaptable, I thrive in collaborative environments that foster innovation and creativity. My goal is to craft seamless digital experiences that are user-friendly, impactful, and at the forefront of modern web development.
+                        </p> 
+                        <div class="about-titles">
+                            <p class="about-links activelink" onclick="opentab('skills')">Skills</p>
+                            <p class="about-links" onclick="opentab('experience')">experience</p>
+                            <p class="about-links" onclick="opentab('education')">education</p>
+                        </div>
+                        <div class="about-contents activetab" id="skills">
+                            <ul>
+                                <li><span>HTML, CSS, and JavaScript</span><br>providing structure, styling, and interactivity</li>
+                                <li><span>React & Tailwind</span><br>Creating websites that make responsive design and adaptability.</li>
+                                <li><span>Git & GitHub</span><br>Version control and collaboration on projects.</li>
+                                <li><span>PostgreSQL</span><br>Managing and storing data for the website</li>
+                                <li><span>Figma</span><br>Designing user interfaces and prototypes.</li>
+                                <li><span>AWS</span><br>building your cloud infrastructure</li>
+                                
+                            </ul>
+                        </div>
+                          <div class="about-contents" id="experience">
+                            <ul>
+                                <li><span>CNC programmer (2017-2019)</span><br>Modify and alter CNC program for production</li>
+                                <li><span>Team lead  (2019-2022)</span><br>Maintain the team for production in MEPCO Madurai</li>
+                                <li><span>Own Business (2022-2025)</span><br>Doing the own business for banking services </li>
+                            </ul>
+                        </div>
+                        <div class="about-contents" id="education">
+                            <ul>
+                                <li><span>2014-2017</span><br>Diploma in Mechanical Engineer</li>
+                                <li><span>2022-2025</span><br>Bachelor in Computer applications</li>
+                                <li><span>2025-2026</span><br> Full stack Web development in Institute</li>
+                            </ul>
+                        </div>
+                </div>    
+
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!---------------about section end---------------->
+
+
+    <!------------------services section---------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="servicesheading">My services</h1>
+            <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Web Design</h2>
+                    <p>Encompass the creation and optimization of websites, focusing on both visual aesthetics and user experience. They involve various elements like layout, colors, typography, and navigation, all designed to be engaging, user-friendly, and accessible across different devices. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file"></i>
+                    <h2>Data base management</h2>
+                    <p>Software that facilitates the creation, manipulation, and management of databases. It provides a structured way for users to store, retrieve, update, and delete data efficiently and securely. A DBMS ensures data integrity, manages security, and allows for concurrent access by multiple users. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Web App development</h2>
+                    <p>The process of creating software applications that are accessed and used through web browsers. These applications run on web servers and are delivered to users online. Web apps can range from simple web pages to complex, interactive platforms, offering various functionalities and services. </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-image"></i>
+                    <h2>Photo editing</h2>
+                    <p>Offer a range of image enhancement and manipulation techniques to improve the quality, appearance, and overall aesthetic of digital photos. These services can range from basic adjustments like color correction and cropping to more complex tasks like retouching, background removal, and even creative manipulations. </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!------------------services section end---------------->
+
+
+    <!------------------project section---------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="proj-heading">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/Portfoliowebwork.png">
+                    <div class="layer">
+                        <h3>Portfolio Web app</h3>
+                        <p>This is a portfolio web app that showcases my skills and projects. It includes sections for about me, my work, and contact information.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Educationwebwork.jpg">
+                    <div class="layer">
+                        <h3>Education Website</h3>
+                        <p>This is an education website that provides information about various courses, admission procedures, and faculty details. It aims to help students make informed decisions about their education.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Blogwebwork.jpg">
+                    <div class="layer">
+                        <h3>Blog site</h3>
+                        <p>This is a blog site that allows users to read and share articles on various topics. It includes features for commenting, liking, and sharing posts.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+
+    <!------------------project section end---------------->
+
+    <!------------------contact section---------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="contact-subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>guruprashanth1@outlook.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8508957905</p>
+                    <div class="social-icons">
+                        <a href="https://www.reddit.com/user/nagarjun24/"><i class="fa-brands fa-reddit"></i></a>
+                        <a href="www.linkedin.com/in/nag-arjun-8ba5712a6"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.quora.com/profile/Naga-Arjun-116"><i class="fa-brands fa-quora"></i></a>
+                        <a href="https://stackoverflow.com/users/24472003/nagarjun0024"><i class="fa-brands fa-stack-overflow"></i></a>
+                        <a href="https://github.com/Nagarjun0024"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message"  rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2" ><i class="fa-solid fa-paper-plane"></i>Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @nagarjun for showing my portfolio</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("about-links");
+        var tabcontents = document.getElementsByClassName("about-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("activelink");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("activetab");
+            }
+
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+    </script>
+
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzF71yxn-ZT_5N3Qm84oSJxTaGzeV2tL6g3G6me4oejSvFabAbDbdfaAY5oxY5QjIii/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "message sent successfully";
+        setTimeout(function(){
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+    
+</body>
+</html>
